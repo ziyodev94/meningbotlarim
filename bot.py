@@ -124,7 +124,7 @@ def main():
     # Reply xabarlar uchun 5s o‘chirish
     app.add_handler(MessageHandler(filters.ALL, delete_messages))
 
-    print("✅ Bot bot.py bilan ishga tushdi...")
+    print(" Bot bot.py bilan ishga tushdi...✅")
     app.run_polling()
 
 if __name__ == "__main__":
