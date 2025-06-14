@@ -1,4 +1,2 @@
-import os
-
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+BOT_TOKEN = "7706373757:AAFaP4_GTS06Mmxe2bBDXk1hKNd1uH353hQ"
 
