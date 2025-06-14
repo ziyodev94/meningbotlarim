@@ -6,7 +6,7 @@ CHANNEL_URL = "https://t.me/sizning_kanalingiz"  # O'z kanalingiz URL manzili
 
 # /start komandasi uchun
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Botga xush kelibsiz! Har qanday kontent yuboring. xoshtezt")
+    await update.message.reply_text("Botga xush kelibsiz! Har qanday kontent yuboring. 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈")
 
 # Barcha kontent turlari uchun handler
 async def handle_messages(update: Update, context: ContextTypes.DEFAULT_TYPE):
