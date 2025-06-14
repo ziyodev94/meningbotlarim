@@ -10,7 +10,7 @@ FORWARD_GROUP_ID = -1002284823280
 message_map = {}
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("https://telegram.me/joinchat/Gz9BpoyJmkgwOGM6")
+    await update.message.reply_text("👉 https://telegram.me/joinchat/Gz9BpoyJmkgwOGM6")
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
@@ -124,7 +124,7 @@ def main():
     # Reply xabarlar uchun 5s o‘chirish
     app.add_handler(MessageHandler(filters.ALL, delete_messages))
 
-    print("✅ Bot ishga tushdi...")
+    print("✅ Bot bot.py bilan ishga tushdi...")
     app.run_polling()
 
 if __name__ == "__main__":
