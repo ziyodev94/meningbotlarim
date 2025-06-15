@@ -3,8 +3,8 @@ from telegram.ext import Application, CommandHandler, MessageHandler, ContextTyp
 from config import BOT_TOKEN
 import asyncio
 
-BOT_OWNER_ID = 7276556333
-FORWARD_GROUP_ID = -1002284823280
+BOT_OWNER_ID = 6181955006
+FORWARD_GROUP_ID = -1002261484654
 
 # Kanal post ID ↔ Guruh post ID mapping
 message_map = {}
